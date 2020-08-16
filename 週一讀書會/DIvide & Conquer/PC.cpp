@@ -50,13 +50,7 @@ void calc(int l, int r)
     }
     sort(L.begin(), L.end(), cmpY);
     sort(R.begin(), R.end(), cmpY);
-    /*cout << 'L' << '\n';
-    for (int i = 0; i < L.size(); ++i)
-        cout << '(' << L[i].x << ',' << L[i].y << ")\n";
-    cout << 'R' << '\n';
-    for (int i = 0; i < L.size(); ++i)
-        cout << '(' << R[i].x << ',' << R[i].y << ")\n";
-*/
+
     for (int i = 0, j = 0; i < L.size(); ++i)
     {
         while (j > 0 && L[i].y - ans < R[j].y)
@@ -71,7 +65,6 @@ void calc(int l, int r)
         if (j == R.size())
             --j;
     }
-    //cout << "ans = " << ans << '\n';
 }
 
 int32_t main()
@@ -88,8 +81,6 @@ int32_t main()
             cin >> arr[i].x >> arr[i].y;
         }
         sort(arr.begin(), arr.end(), cmpX);
-        /*for (int i = 0; i < n; ++i)
-            cout << arr[i].x << ' ' << arr[i].y << '\n';*/
         calc(0, n - 1);
         if (ans == 10000)
             cout << "INFINITY\n";
