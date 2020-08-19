@@ -1,6 +1,6 @@
 ## 作業：
 
-*題目不難，至少選三題寫喔～*
+*題目不難，至少選兩題寫喔～*
 
 [PA UVa 437](http://domen111.github.io/UVa-Easy-Viewer/?437)
 
@@ -10,6 +10,4 @@
 
 [PD TIOJ 1907](https://tioj.ck.tp.edu.tw/problems/1907)
 
-[PE UVa 10599 in Zerojudge](https://zerojudge.tw/ShowProblem?problemid=d524)
-
-[PF UVa 103](http://domen111.github.io/UVa-Easy-Viewer/?103)
+[PE UVa 103](http://domen111.github.io/UVa-Easy-Viewer/?103)
